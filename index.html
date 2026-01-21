@@ -293,6 +293,7 @@
 
       let formattedDate = '';
       if (dateInput) {
+        console.log(formattedDate);
         const parts = dateInput.split('-'); // ["yyyy", "MM", "dd"]
         formattedDate = `${parts[2]}/${parts[1]}/${parts[0]}`; // dd/MM/yyyy
       }
